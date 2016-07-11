@@ -1,0 +1,10 @@
+
+h1 {font-size: 35px; line-height: 35px;}
+
+h2 {font-size: 16px; line-height: 18px;}
+h2 span {font-style: italic; font-size: 16px; line-height: 18px; color:#bbb;}
+
+h3 {font-size: 14px; line-height: 16px;}
+h3 span {font-style: italic; font-size: 14px; line-height: 16px; color:#bbb;}
+
+p {font-size: 12px; line-height: 14px;}

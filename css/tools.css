@@ -1,0 +1,14 @@
+.ten {width: 10px; height: 10px;}
+.twe {width: 20px; height: 20px;}
+.thi {width: 30px; height: 30px;}
+.for {width: 40px; height: 40px;}
+
+.fltl { float: left;}
+.fltr { float: right;}
+.fltc { float: none;}
+
+.redback { background-color: #ff6285}
+.bluback { background-color: #6cc2ff}
+
+.borda { border: 1px solid #eeeeee; border-radius: 2px;}
+.bordared { border: 1px solid #ff6285; border-radius: 2px;}

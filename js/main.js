@@ -1,52 +1,13 @@
-/* Created by Mergen*/
-var scene, camera, renderer;
-var boxGeometry, boxMesh, boxMaterial;
+    var windowWidth, windowHeight;
 
-init();
+    windowWidth = window.innerWidth;
+    windowHeight = window.innerHeight;
 
-function init() {
-    scene = new THREE.Scene();
-    initMaterials();
-    initMeshes();
-    initCamera();
-    initLights();
-    initRenderer();
-}
+    document.body.style.width = windowWidth+"px";
+    document.getElementById("header").style.width = windowWidth+"px";
+    document.getElementById("tour").style.height = (windowHeight)+"px";
+    document.getElementById("tour").style.width = windowWidth+"px";
+    document.getElementById("headercontent").style.left = ((windowWidth-1200)/2)+"px";
+    document.getElementById("tourFrame").style.height = windowHeight+"px";
+    document.getElementById("tourFrame").style.width = windowWidth+"px";
 
-function initMaterials() {
-    boxMaterial = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-}
-
-function initMeshes() {
-    boxGeometry = new THREE.BoxGeometry( 1, 1, 1 );
-    boxMesh = new THREE.Mesh( boxGeometry, boxMaterial );
-    scene.add( boxMesh );
-}
-
-function initCamera() {
-    camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
-    camera.position.z = 5;
-}
-
-function initLights() {
-    
-}
-
-function initRenderer() {
-    renderer = new THREE.WebGLRenderer();
-    renderer.setSize( window.innerWidth, window.innerHeight );
-    document.body.appendChild( renderer.domElement );
-}
-
-function animation() {
-    boxMesh.rotation.x += 0.02;
-    boxMesh.rotation.y += 0.02;
-}
-
-var render = function () {
-    requestAnimationFrame( render );
-    animation();
-    renderer.render(scene, camera);
-};
-
-render();

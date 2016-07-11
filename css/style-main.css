@@ -1,0 +1,13 @@
+* {font-family: Consolas; font-weight: normal; margin:0; padding:0; color: #eee; line-height: 0;}
+
+#header {background-color: #222; opacity: 0.75;}
+#headercontent {position: relative; height: 37px; width: 1200px;}
+
+
+#title {width: 600px; height: 35px;}
+#logo {width: 200px;height: 35px; padding-top: 0px;}
+#text {width: 380px;height: 33px; padding-top: 2px;}
+#menu {width:496px;height: 35px;}
+.but {width:150px;height: 33px; text-align: center; padding-top: 2px;}
+
+#tour {position:absolute; top:0; z-index: -100; background-color: #6cc2ff;}

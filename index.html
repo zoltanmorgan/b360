@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r78/three.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/tools.css">
+    <link rel="stylesheet" type="text/css" href="css/style-main.css">
+    <link rel="stylesheet" type="text/css" href="css/text.css">
+
+
+    <link rel="stylesheet" href="https://cdn.pannellum.org/2.2/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.pannellum.org/2.2/pannellum.js"></script>
+
     <title></title>
 </head>
 <body>
+
+
+
+
+<div id="header">
+    <div class="twe"></div>
+        <div id="headercontent" class="fltc">
+            <div id="title fltl">
+                <div id="logo" class="fltl">
+                    <h1 style=" position: relative; left: -3px;">BAŞKENT360</h1>
+                </div>
+                <div id="text" class="fltl">
+                    <h3>Profesyonel Sanal Tur ve 3B Web Uygulamaları</h3>
+                    <h3><span>Professional Virtual Tour and 3D Web Applications</span></h3>
+                </div>
+            </div>
+            <div id="menu" class="fltr">
+                <div id="vtourbut" class="borda but fltr">
+                    <h3>İletişim<br><span>Contact</span></h3>
+                </div>
+                <div class="twe fltr"></div>
+                <div id="web3dbut" class="borda but fltr">
+                    <h3>3 Boyutlu WEB<br><span>3 Dimensional WEB</span></h3>
+                </div>
+                <div class="twe fltr"></div>
+                <div id="contactbut" class="borda but fltr">
+                    <h3>Sanal Tur<br><span>Virtual Tour</span></h3>
+                </div>
+            </div>
+        </div>
+    <div class="twe fltc"></div>
+</div>
+
+
+<div id="tour">
+</div>
+
+<script>
+    pannellum.viewer('tour', {
+        "type": "equirectangular",
+        "panorama": "https://pannellum.org/images/alma.jpg"
+    });
+</script>
+
 
 <script src="js/main.js"></script>
 
