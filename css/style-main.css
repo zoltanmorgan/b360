@@ -3,11 +3,13 @@
 #header {background-color: #222; opacity: 0.75;}
 #headercontent {position: relative; height: 37px; width: 1200px;}
 
+#footer {position: absolute; background-color: #222; opacity: 0.75;}
+#footercontent { position: relative; height: 37px; width: 800px; text-align: center;}
 
 #title {width: 600px; height: 35px;}
-#logo {width: 200px;height: 35px; padding-top: 0px;}
+#logo {width: 200px;height: 35px; padding-top: 0;}
 #text {width: 380px;height: 33px; padding-top: 2px;}
 #menu {width:496px;height: 35px;}
-.but {width:150px;height: 33px; text-align: center; padding-top: 2px;}
+.but {width:200px;height: 33px; text-align: center; padding-top: 2px;}
 
 #tour {position:absolute; top:0; z-index: -100; background-color: #6cc2ff;}
