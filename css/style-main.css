@@ -1,15 +1,17 @@
 * {font-family: Consolas; font-weight: normal; margin:0; padding:0; color: #eee; line-height: 0;}
 
-#header {background-color: #222; opacity: 0.75;}
-#headercontent {position: relative; height: 37px; width: 1200px;}
+#header {}
+#leftbar {position: absolute; background-color: #111; opacity: 0.5; z-index: -90}
+#leftcontent {position: absolute; width: 260px;}
+#headercontent {}
 
-#footer {position: absolute; background-color: #222; opacity: 0.75;}
+#footer {position: absolute; background-color: #222; opacity: 0.45;}
 #footercontent { position: relative; height: 37px; width: 800px; text-align: center;}
 
-#title {width: 600px; height: 35px;}
-#logo {width: 200px;height: 35px; padding-top: 0;}
-#text {width: 380px;height: 33px; padding-top: 2px;}
+#title {width: 400px; height: 35px;}
+#logo {width: 200px; padding-top: 0;}
+#text {width: 260px; padding-top: 2px;}
 #menu {width:496px;height: 35px;}
 .but {width:200px;height: 33px; text-align: center; padding-top: 2px;}
 
-#tour {position:absolute; top:0; z-index: -100; background-color: #6cc2ff;}
+#tour {position:absolute; top:0; z-index: -100;}
