@@ -25,8 +25,8 @@
         }
 
         else {
-            $( "#projects" ).width("900px");
-            document.getElementById("projects").style.left = ((windowWidth-900)/2)+"px";
+            $( "#projects" ).width("1200px");
+            document.getElementById("projects").style.left = ((windowWidth-1200)/2)+"px";
 
             $( "#headercontent" ).width("900px");
             document.getElementById("headercontent").style.left = ((windowWidth-900)/2)+"px";
@@ -40,9 +40,21 @@
         .mouseover(function() {
             // i += 1;
 
-            $(this).children(".projtnt").stop().animate({height: '100px', opacity: '0.8', top: '200px'}, "fast");
+            $(this).children(".line").stop().animate({left: '200px'}, "slow");
         })
         .mouseout(function() {
-        //    $( this ).text( "mouse out " );
-            $(this).children(".projtnt").stop().animate({height: '50px', opacity: '0', top: '250px'}, "fast");
+            //    $( this ).text( "mouse out " );
+            $(this).children(".line").stop().animate({left: '100px'}, "slow");
+        });
+
+
+    $( ".but" )
+        .mouseover(function() {
+            // i += 1;
+
+            $(this).children(".buttnt").stop().animate({height: '10px', top: '70px'}, "fast");
+        })
+        .mouseout(function() {
+            //    $( this ).text( "mouse out " );
+            $(this).children(".buttnt").stop().animate({height: '0', top: '80px'}, "fast");
         });
