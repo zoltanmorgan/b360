@@ -1,17 +1,35 @@
-* {font-family: Consolas; font-weight: normal; margin:0; padding:0; color: #eee; line-height: 0;}
+* {font-family: 'Alegreya Sans', sans-serif; font-weight: normal; margin:0; padding:0; color: #eee; line-height: 0;}
 
-#header {}
-#leftbar {position: absolute; background-color: #111; opacity: 0.5; z-index: -90}
-#leftcontent {position: absolute; width: 260px;}
-#headercontent {}
-
-#footer {position: absolute; background-color: #222; opacity: 0.45;}
-#footercontent { position: relative; height: 37px; width: 800px; text-align: center;}
-
-#title {width: 400px; height: 35px;}
+/***HEADER GROUP***/
+#header {position: relative; height: 80px; background-color: #18121e }
+#headercontent {position: absolute; height: 78px;}
+#title {width: 400px; height: 40px;}
 #logo {width: 200px; padding-top: 0;}
-#text {width: 260px; padding-top: 2px;}
-#menu {width:496px;height: 35px;}
+#text {width: auto; height: 37px; padding-top: 3px;}
+#menu {width: auto; height: 37px; padding-top: 3px;}
 .but {width:200px;height: 33px; text-align: center; padding-top: 2px;}
+/***HEADER GROUP***/
 
-#tour {position:absolute; top:0; z-index: -100;}
+/***TOUR GROUP***/
+#tour {position:relative; z-index: -100; background-color: #6cc2ff;}
+/***TOUR GROUP***/
+
+/***PROJECTS GROUP***/
+#content { position:relative; background-color: #eee; height: auto;}
+#projects { position:relative; height: auto;}
+
+.proj { position: relative; width:300px; height:300px; color:black; background-color: #bbbbbb; z-index: 10; cursor: pointer;}
+.projthumb {position: absolute; top: 0; left: 0; z-index: 11;}
+.projtnt {position: absolute; background-color: black; opacity: 0.4; width: 300px; height: 50px;  top: 250px; z-index: 12;}
+.projimg {}
+/***PROJECTS GROUP***/
+
+
+/***contact GROUP***/
+#contact{position:relative; background-color: #eee; height: auto;}
+/***contact GROUP***/
+
+#footer {position: relative; height: 150px; background-color: #18121e;}
+
+.centx {text-align: center;}
+

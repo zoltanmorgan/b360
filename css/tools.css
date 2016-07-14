@@ -7,8 +7,9 @@
 .fltr { float: right;}
 .fltc { float: none;}
 
-.redback { background-color: #ff6285}
-.bluback { background-color: #6cc2ff}
+.redback { background-color: #ff6285 }
+.bluback { background-color: #6cc2ff }
+.greback { background-color: #18bb1e }
 
 .borda { border: 1px solid #eeeeee; border-radius: 2px;}
 .bordared { border: 1px solid #ff6285; border-radius: 2px;}
