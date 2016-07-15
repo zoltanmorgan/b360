@@ -1,7 +1,7 @@
 * {font-family: 'Oswald', sans-serif; font-weight: normal; margin:0; padding:0; color: #eee; line-height: 0;}
 
 /***HEADER GROUP***/
-#header {position: relative; height: 80px; background: rgba(54, 25, 25, 1);}
+#header {position: relative; height: 80px; background-color: #101721}
 #headercontent {position: absolute; height: 78px; opacity: 1;}
 #title {width: 166px; height: 40px;}
 #text {width: auto; height: 37px; padding-top: 3px;}
@@ -11,16 +11,25 @@
 /***HEADER GROUP***/
 
 /***TOUR GROUP***/
-#tour {position:relative; z-index: -100; background-color: #6cc2ff;}
+#tour {position:relative; z-index: 100; background-color: #6cc2ff;}
 /***TOUR GROUP***/
 
 /***PROJECTS GROUP***/
 #content { position:relative; background-color: #eee; overflow: hidden;}
 #projects { position:relative; height: auto; overflow: hidden;}
 
-.proj { position: relative; width:300px; height:300px; z-index: 10; cursor: pointer;}
-.projinfo {position: absolute; width:300px; height:300px; background-color: #eee; top: 0;}
-.projthumb {position: absolute; top: 0; left: 300px; z-index: 11;}
+.proj { position: relative; width:1200px; height:300px; z-index: 10; cursor: pointer; }
+.proj .txtbox{ position: relative; width: 300px; height: 300px; }
+.proj .imgbox {  position: relative; width: 900px; height: 300px; overflow: hidden; }
+.proj .txt{  position: absolute; height: auto; padding: 5px; overflow: hidden; text-align: left; }
+.proj .txtbox .left { text-align: left; }
+.proj .txtbox .right { text-align: right; }
+.one, .two, .three { position: absolute;}
+.one {top: 100px;}
+.two {top: 130px;}
+.three {top: 160px;}
+.txtline {position: absolute; top: 111px; width: 4px; height: 2px; background-color: #ffae22;}
+
 
 .projtnt {position: absolute; background-color: black; opacity: 0.4; width: 300px; height: 50px;  top: 250px; z-index: 12;}
 .projimg {}
@@ -31,7 +40,7 @@
 #contact{position:relative; background-color: #eee; height: auto;}
 /***contact GROUP***/
 
-#footer {position: relative; height: 150px; background:rgba(54, 25, 25, 1);}
+#footer {position: relative; height: 150px; background-color: #101721;}
 
 .centx {text-align: center;}
 
