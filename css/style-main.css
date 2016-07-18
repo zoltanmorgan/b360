@@ -1,32 +1,45 @@
-* {font-family: 'Oswald', sans-serif; font-weight: normal; margin:0; padding:0; color: #eee; line-height: 0;}
+* {font-family: 'Oswald', sans-serif; font-weight: normal; margin:0; padding:0; color: #666; line-height: 0;}
 
 /***HEADER GROUP***/
-#header {position: relative; height: 80px; background-color: #101721}
-#headercontent {position: absolute; height: 78px; opacity: 1;}
-#title {width: 166px; height: 40px;}
-#text {width: auto; height: 37px; padding-top: 3px;}
-#menu {width: auto; height: 60px; }
+#header { position: fixed; background-color: #fefefe; border-bottom: 1px solid #444; z-index: 10000;}
+#header-content { position: absolute;}
+#header-content-title-logo {width: 190px; height: 40px;}
+#header-content-title-text {width: 180px; height: 40px;}
+#header-content-menu {width: auto; height: 40px; }
+
+#header-content-menu-contbut {}
+#header-content-menu-projbut {}
+
 .but {width:70px;height: 60px; text-align: center; cursor: pointer;}
 .buttnt {position:absolute; top:80px; width:70px; height:0; background-color: #ffae22;}
 /***HEADER GROUP***/
 
 /***TOUR GROUP***/
-#tour {position:relative; z-index: 100; background-color: #6cc2ff;}
+#tour {position:relative; height:560px; background-color: #6cc2ff;  border-bottom: 1px solid #444;}
 /***TOUR GROUP***/
 
+#shot {}
+
+#icons {position: absolute; top: 0px; }
+
+.icon {background-color: #fefefe; width: 250px; text-align: justify;}
+
+
+
+
 /***PROJECTS GROUP***/
-#content { position:relative; background-color: #eee; overflow: hidden;}
+#content { position:relative; overflow: hidden;}
 #projects { position:relative; height: auto; overflow: hidden;}
 
 .proj { position: relative; width:1200px; height:300px; z-index: 10; cursor: pointer; }
-.proj .txtbox{ position: relative; width: 300px; height: 300px; }
+.proj .txtbox{ position: relative; width: 300px; height: 300px;}
 .proj .imgbox {  position: relative; width: 900px; height: 300px; overflow: hidden; }
 .proj .txt{  position: absolute; height: auto; padding: 5px; overflow: hidden; text-align: left; }
 .proj .txtbox .left { text-align: left; }
 .proj .txtbox .right { text-align: right; }
 .one, .two, .three { position: absolute;}
 .one {top: 100px;}
-.two {top: 130px;}
+.two {position: absolute; left: 20px; top: 20px; border: solid 1px #aaa; z-index: 1200;}
 .three {top: 160px;}
 .txtline {position: absolute; top: 111px; width: 4px; height: 2px; background-color: #ffae22;}
 
@@ -40,7 +53,7 @@
 #contact{position:relative; background-color: #eee; height: auto;}
 /***contact GROUP***/
 
-#footer {position: relative; height: 150px; background-color: #101721;}
+#footer {position: relative; height: 900px; background-color: #fefefe; border-top: 1px solid #777;}
 
 .centx {text-align: center;}
 
