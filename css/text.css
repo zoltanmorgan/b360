@@ -1,10 +1,9 @@
 
 h1 {font-weight:400; font-size: 40px; line-height: 40px; color:#444;}
 h1 span {font-weight:400; font-size: 40px; line-height: 40px;  color: #ffae22;}
-h1 span {font-weight:400; font-size: 40px; line-height: 40px;  color: #ffae22;}
 
-h2 {font-size: 15px; line-height: 20px; font-weight:300; color:#444;}
-h2 span { font-size: 15px; line-height: 20px; font-weight:300; color:#bbb;}
+h2 {font-size: 19px; line-height: 20px; font-weight:300; color:#444;}
+h2 span { font-size: 19px; line-height: 20px; font-weight:300; color:#bbb;}
 
 h3 {font-size: 22px; line-height: 26px;color:#444; font-weight: 400;}
 h3 span { font-size: 22px; line-height: 26px; color:#bbb; font-weight: 400;}
