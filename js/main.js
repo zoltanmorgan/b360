@@ -48,6 +48,7 @@
 
     $(window).scroll(function(){
 
+
         var scrollpos = $(window).scrollTop();
 
         if (scrollpos == 0) {        }
@@ -83,6 +84,17 @@
 
 
 
+    $( "#menu-proj-but" ).click(function() {
+        $('html, body').stop().animate({
+            scrollTop: $("#projs").offset().top
+        }, 200);
+    });
+
+    $( "#menu-cont-but" ).click(function() {
+        $('html, body').stop().animate({
+            scrollTop: $("#footer").offset().top
+        }, 200);
+    });
 
 
 
