@@ -1,0 +1,22 @@
+#incipanorama {
+    width: 400px;
+    height: 400px;
+    background-color: #6cc2ff;
+}
+
+#proj-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 150px;
+    z-index: 999;
+}
+
+#plans {
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    height: 740px;
+    z-index: 999;
+}
